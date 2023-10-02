@@ -1,0 +1,50 @@
+/* Add your CSS styles for the popup here */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 10px;
+  width: 300px;
+}
+
+h1 {
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+
+#tabGroups {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.group-button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.group-button:hover {
+  background-color: #e0e0e0;
+}
+
+#createGroup {
+  display: block;
+  width: 100%;
+  background-color: #0073e6;
+  color: #fff;
+  border: none;
+  padding: 8px 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#createGroup:hover {
+  background-color: #0057b3;
+}
